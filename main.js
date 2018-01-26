@@ -34,6 +34,4 @@ const characters = [
   new Character({ name: 'Jon Snow', title: 'King of the North' }),
 ]
 
-characters.forEach(function(character) {
-  character.display()
-})
+characters.forEach(character => character.display())
