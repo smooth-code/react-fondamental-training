@@ -1,9 +1,10 @@
 import chalk from 'chalk'
 
 class Character {
-  constructor({ name, title }) {
+  constructor({ name, title, picture }) {
     this.name = name
     this.title = title
+    this.picture = picture
   }
 
   getElement() {
