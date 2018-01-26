@@ -19,10 +19,10 @@ function displayCharacter({ name, title }) {
   console.log(chalk`{${color} ${name} - ${title}}`)
 }
 
-const daenerys = { name: 'Daenerys Targaryen', title: 'Mother of Dragons' }
-const aria = { name: 'Aria Stark', title: 'Princess' }
-const jon = { name: 'Jon Snow', title: 'King of the North' }
+const characters = [
+  { name: 'Daenerys Targaryen', title: 'Mother of Dragons' },
+  { name: 'Aria Stark', title: 'Princess' },
+  { name: 'Jon Snow', title: 'King of the North' },
+]
 
-displayCharacter(daenerys)
-displayCharacter(aria)
-displayCharacter(jon)
+characters.forEach(displayCharacter)
