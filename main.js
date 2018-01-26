@@ -1,5 +1,7 @@
 const chalk = require('chalk')
 
+const delay = async time => new Promise(resolve => setTimeout(resolve, time))
+
 class Character {
   constructor({ name, title }) {
     this.name = name
@@ -34,4 +36,11 @@ const characters = [
   new Character({ name: 'Jon Snow', title: 'King of the North' }),
 ]
 
-characters.forEach(character => character.display())
+async function main() {
+  for (let character of characters) {
+    character.display()
+    await delay(1000)
+  }
+}
+
+main()
