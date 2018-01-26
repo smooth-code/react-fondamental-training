@@ -2,5 +2,8 @@
   "name": "react-fondamental-training-exercises",
   "version": "1.0.0",
   "private": true,
-  "repository": "git@github.com:smooth-code/react-fondamental-training.git"
+  "repository": "git@github.com:smooth-code/react-fondamental-training.git",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
 }
