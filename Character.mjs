@@ -1,6 +1,4 @@
-const chalk = require('chalk')
-
-const delay = async time => new Promise(resolve => setTimeout(resolve, time))
+import chalk from 'chalk'
 
 class Character {
   constructor({ name, title }) {
@@ -30,17 +28,4 @@ class Character {
   }
 }
 
-const characters = [
-  new Character({ name: 'Daenerys Targaryen', title: 'Mother of Dragons' }),
-  new Character({ name: 'Aria Stark', title: 'Princess' }),
-  new Character({ name: 'Jon Snow', title: 'King of the North' }),
-]
-
-async function main() {
-  for (let character of characters) {
-    character.display()
-    await delay(1000)
-  }
-}
-
-main()
+export default Character
