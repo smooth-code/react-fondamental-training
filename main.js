@@ -5,14 +5,8 @@ function getElement(name) {
   return null
 }
 
-function displayCharacter(character) {
-  console.log(
-    character.name +
-      ' - ' +
-      character.title +
-      ' - ' +
-      getElement(character.name),
-  )
+function displayCharacter({ name, title }) {
+  console.log(name + ' - ' + title + ' - ' + getElement(name))
 }
 
 const daenerys = { name: 'Daenerys Targaryen', title: 'Mother of Dragons' }
