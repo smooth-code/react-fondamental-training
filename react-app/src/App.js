@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import CharacterCard from './CharacterCard'
 import Character from './Character'
+import CharacterEditor from './CharacterEditor'
 
 const characters = [
   new Character({
@@ -30,6 +31,7 @@ const App = () => (
       <h3>Ice and Fire</h3>
     </header>
     <section className="content">
+      <CharacterEditor />
       <div className="row">
         {characters.map(character => (
           <div className="col-md-4" key={character.name}>

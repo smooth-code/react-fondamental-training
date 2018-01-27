@@ -8,7 +8,9 @@ import CardTitle from './components/CardTitle'
 
 const CharacterCard = ({ character }) => (
   <Card>
-    <CardImg src={character.picture} alt={character.name} />
+    {character.picture ? (
+      <CardImg src={character.picture} alt={character.name} />
+    ) : null}
     <CardBody>
       <CardTitle style={{ color: character.getColor() }}>
         {character.name}
