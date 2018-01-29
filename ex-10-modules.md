@@ -19,17 +19,3 @@ Arya Stark - Princess (displayed in blue)
 # 1 sec..
 Jon Snow - King of the North (displayed in magenta)
 ```
-
-## Aide
-
-```js
-const delay = async time => new Promise(resolve => setTimeout(resolve, time))
-
-async function main() {
-  for (let character of characters) {
-    /* TODO */
-  }
-}
-
-main()
-```
