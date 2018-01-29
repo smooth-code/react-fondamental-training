@@ -109,7 +109,7 @@ import CardTitle from './components/CardTitle'
 
 const CharacterCard = ({ character }) => (
   <Card>
-    <CardImg img={/* TODO */} alt={/* TODO */} />
+    <CardImg src={/* TODO */} alt={/* TODO */} />
     <CardBody>
       <CardTitle style={{color: /* TODO */ }}>{/* TODO */}</CardTitle>
       <CardText>{/* TODO */}</CardText>
