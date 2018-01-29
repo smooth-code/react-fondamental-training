@@ -4,7 +4,6 @@
 
 Nous souhaitons maintenant créer un formulaire permettant d'éditer un personnage.
 
-* Créer un composant `FormGroup` (voir aide)
 * Créer un composant `CharacterForm` contrôlé, il acceptera donc deux propriétés :
 
   * `value`, le personnage représenté dans le formulaire
@@ -19,34 +18,24 @@ Nous souhaitons maintenant créer un formulaire permettant d'éditer un personna
 ## Aide
 
 ```js
-// FormGroup.js
+// CharacterForm.js
 import React from 'react'
+import Character from './Character'
 
-const FormGroup = ({ children, ...props }) => (
-  <div className="form-group" {...props}>
-    {children}
-  </div>
-)
-
-export default FormGroup
-```
-
-```js
-import React from 'react'
-
-// Exemple de formulaire contrôlé pour vous inspirer
-class ControlledForm extends React.Component {
+class CharacterForm extends React.Component {
   handleNameChange = event => {
-    this.props.onChange({
-      ...this.props.value,
-      name: event.target.value,
-    })
+    this.props.onChange(
+      new Character({
+        ...this.props.value,
+        name: event.target.value,
+      }),
+    )
   }
 
   render() {
     return (
       <form>
-        <FormGroup>
+        <div className="form-group">
           <label htmlFor="name">Name</label>
           <input
             onChange={this.handleNameChange}
@@ -55,7 +44,8 @@ class ControlledForm extends React.Component {
             id="name"
             placeholder="Enter name"
           />
-        </FormGroup>
+        </div>
+        /* TODO other fields */
       </form>
     )
   }
