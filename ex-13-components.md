@@ -47,19 +47,19 @@ const characters = [
     name: 'Daenerys Targaryen',
     title: 'Mother of Dragons',
     picture:
-      'http://res.cloudinary.com/smooth/image/upload/v1500972396/training_react_daenerys_targaryen.png',
+      'http://res.cloudinary.com/smooth/image/upload/c_fill,g_face,h_400,w_500,dpr_2/v1500972396/training_react_daenerys_targaryen.png',
   }),
   new Character({
     name: 'Arya Stark',
     title: 'Princess',
     picture:
-      'http://res.cloudinary.com/smooth/image/upload/v1500972396/training_react_arya_stark.png',
+      'http://res.cloudinary.com/smooth/image/upload/c_fill,g_face,h_400,w_500,dpr_2/v1500972396/training_react_arya_stark.png',
   }),
   new Character({
     name: 'Jon Snow',
     title: 'King of the North',
     picture:
-      'http://res.cloudinary.com/smooth/image/upload/v1500972396/training_react_jon_snow.png',
+      'http://res.cloudinary.com/smooth/image/upload/c_fill,g_face,h_400,w_500,dpr_2/v1500972396/training_react_jon_snow.png',
   }),
 ]
 
