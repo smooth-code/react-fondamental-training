@@ -25,7 +25,7 @@ Nous souhaitons créer une carte permettant d'afficher un personnage.
   * Il utilisera les composants pour afficher une carte, en titre le nom du personnage, en texte le titre du personnage
   * Le titre du personnage devra prendre la couleur correspondant à son élément
 
-* Déplacer le fichier `Character.mjs` (créer dans les exercices précédents) dans le dossier `src`
+* Déplacer le fichier `Character.mjs` (créé dans les exercices précédents) dans le dossier `src`
 * Modifier la classe `Character` pour qu'elle accepte une propriété `picture`
 * Afficher tous les personnages dans `App.js`
 
