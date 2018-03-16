@@ -6,7 +6,7 @@ Nous souhaitons afficher des couleurs dans la console, pour cela nous allons uti
 
 * Installer `chalk` dans le projet
 * Créer un fichier `.gitignore` avec `node_modules`
-* Créer un object `elementsColors` qui permettra de lié une couleur à chaque élément :
+* Créer un object `elementsColors` qui permettra de lier une couleur à chaque élément :
   * "ice" => "blue"
   * "fire" => "red"
   * "ice and fire" => "magenta"
