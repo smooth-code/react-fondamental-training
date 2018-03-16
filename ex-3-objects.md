@@ -2,10 +2,10 @@
 
 ## Instructions
 
-Nous souhaitons que nos personnages soient constituée d'un nom, et d'un titre. Nous souhaitons aussi pouvoir les afficher.
+Nous souhaitons que nos personnages soient constitués d'un nom, et d'un titre. Nous souhaitons aussi pouvoir les afficher.
 
 * Créer une fonction `displayCharacter(character)` qui acceptera un objet "character" : `{ name, title }`
-* Créer trois variables correspondantes aux personnages (voir l'aide) et les afficher
+* Créer trois variables correspondant aux personnages (voir l'aide) et les afficher
 
 **Résultat attendu**
 
