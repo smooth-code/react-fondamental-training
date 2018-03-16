@@ -4,8 +4,8 @@
 
 Nous souhaitons utiliser un tableau qui contiendra tous nos personnages.
 
-* Créer un tableaux `characters` qui contiendra les trois personnages
-* A l'aide la fonction `forEach`, afficher les personnages
+* Créer un tableau `characters` qui contiendra les trois personnages
+* À l'aide la fonction `forEach`, afficher les personnages
 
 **Résultat attendu**
 
